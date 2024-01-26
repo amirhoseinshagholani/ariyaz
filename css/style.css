@@ -5,6 +5,22 @@
 	src: local('../fonts/Vazir'), url('../fonts/Vazir.woff') format('woff'), url('../fonts/Vazir.ttf') format('truetype'), url('../fonts/Vazir.svg') format('svg');
 }
 
+/* @font-face{
+	font-family: Vazir;
+	src: url(../fonts/shabnam/Shabnam.woff) format("woff");
+} */
+
+/* @font-face{
+	font-family: 'irancell-bold';
+	src: url('../fonts/irancell.font/14010813\ Irancell-Bold.ttf') format('ttf');
+} */
+
+/* @font-face{
+	font-family: irancell;
+	src: url(../fonts/irancell/Irancell-ExtraBold.ttf) format("ttf");
+} */
+
+
 * { box-sizing: border-box;font-family: 'Vazir'; }
 body {
 	margin: 0;
@@ -17,7 +33,13 @@ body {
 	color: #757575;
 	direction: rtl;
 	font-family: 'Vazir';
+	/* font-family: 'shabnam' !important; */
 	-webkit-font-smoothing: antialiased;
+}
+
+#banner-title{
+	margin-right: -5px;
+	word-spacing: -5.5px;
 }
 
 #logo{
@@ -69,6 +91,8 @@ input:focus,textarea:hover,textarea:focus,a:hover,a:focus,a:visited,a.active,sel
 h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	font-weight: normal;
+	font-family: 'Vazir';
+	line-height: 1.6;
 }
 
 h1{
@@ -236,7 +260,7 @@ h1{
 	padding-bottom: 35px;
 }
 .about-left-img {
-	max-width: 370px;
+	max-width: 550px;
 	margin: 0px auto;
 	margin-bottom: -100px;
 }
@@ -247,6 +271,13 @@ h1{
 	animation: zooming 18s infinite both;
 }
 
+#imgWhatRecieved{
+	margin-top: 100px;
+}
+
+#imgWhyIsItUniqe{
+	margin-top: 120px;
+}
 
 .about-section-text {
 	padding-top: 105px;
@@ -646,11 +677,14 @@ h1{
 	font-weight: 300;
 }
 .banner-text {
-	max-width: 650px;
+	max-width: 570px;
+	width: auto;
+	position: relative;
+	/* word-spacing: 1px; */
 }
 .banner-area-head  span {
 	color: #070707;
-	font-size: 20px;
+	font-size: 21.6px;
 	
 }
 .banner-area-content {
