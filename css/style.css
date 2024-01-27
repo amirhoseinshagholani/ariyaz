@@ -37,10 +37,62 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+
+
 #banner-title{
 	margin-right: -5px;
 	word-spacing: -5.5px;
 }
+
+@media only screen and (max-width:700px) {
+	.mobileHide {
+		display: none;
+	}
+
+	#banner-title{
+		h1 {
+			font-size: large;
+			margin-right: 10px;
+			word-spacing: 1px;
+			font-family: 'Vazir';
+		}
+		
+	}
+	#banner-text{
+		span {
+			font-size: small;
+			margin-right: 5px;
+			word-spacing: 1px;
+			font-family: 'Vazir';
+		}
+	}
+	#extraPic{
+		display: none;
+	}
+
+	.mobileTitles{
+		font-size: large;
+		margin-right: 5px;
+		word-spacing: 1px;
+		font-family: 'Vazir';
+	}
+
+	.mobileContents{
+		font-size: small;
+		margin-right: 5px;
+		word-spacing: 1px;
+		font-family: 'Vazir';
+	}
+
+	footer{
+		font-size: medium;
+		margin-right: 5px;
+		word-spacing: 1px;
+		font-family: 'Vazir';
+	}
+}
+
+
 
 #logo{
 	margin: auto;
@@ -695,6 +747,7 @@ h1{
 	left: 0;
 	top: 0;
 }
+
 .banner-mock-up.home-1 {
 	top: -110px;
 } 
